@@ -92,7 +92,7 @@ class DeviceService {
           );
         }
         print("Device added: ${devices.last.deviceName}");
-        print('body da URL: ${response.body}');
+        //print('body da URL: ${response.body}');
       }
     } else {
       print("Failed to fetch devices: ${response.statusCode}");
